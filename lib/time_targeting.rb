@@ -8,7 +8,7 @@ end
 puts "Assignment: Time Targeting"
 
 contents = CSV.open(
-  'event_attendees.csv',
+  'event_attendees.csv', # can switch to full csv
   headers: true,
   header_converters: :symbol
 )
