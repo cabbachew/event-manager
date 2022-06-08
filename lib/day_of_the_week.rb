@@ -8,7 +8,7 @@ end
 puts "Assignment: Day of the Week"
 
 contents = CSV.open(
-  'event_attendees_full.csv', # can switch to full csv
+  'event_attendees.csv', # can switch to full csv
   headers: true,
   header_converters: :symbol
 )

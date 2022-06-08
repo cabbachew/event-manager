@@ -2,7 +2,7 @@ require 'csv'
 require 'time'
 
 def get_reg_hour(reg_date)
-  reg_hour = Time.strptime(reg_date, "%m/%d/%y %k:%M").hour # OR strftime("%l %p")
+  reg_hour = Time.strptime(reg_date, "%m/%d/%y %k:%M").hour # OR strftime("%l %p").strip
 end
 
 puts "Assignment: Time Targeting"
